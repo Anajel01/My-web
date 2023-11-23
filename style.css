@@ -1,0 +1,275 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    background-color: #000404 !important;
+    
+}
+.navbar-toggler{
+    background-color: white;
+}
+
+.herorowimg{
+    background-color: #07393C;
+    background: url(hero2.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.abouttext{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 100px;
+}
+
+.contactme{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 300px;
+    
+}
+/* THIS IS THE CONTACT ME PAGE!!! */
+.yourinfo{
+    text-align: center;
+    padding: 50px;
+    
+}
+
+
+.bgc{
+    background-color: #324D51;
+    padding: 1px;
+    width: 100%;
+    height: 410px;
+
+}
+
+.infoandicons{
+    background-color: #ffffff;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+    
+}
+.mail{
+padding-left: 100px;
+padding-right: 100px;
+text-align: center;
+color: #07393C;
+}
+
+
+.phone{
+padding-left: 100px;
+padding-right: 100px;
+text-align: center;
+color: #07393C;
+}
+
+.instagram{
+padding-left: 370px;
+padding-right: 100px;
+text-align: center;
+color: #07393C;
+}
+.vivid{
+    padding-left: 740px;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.me{
+    height: 600px;
+    display: flex;
+    background-color: #07393C;
+}
+.nice{
+    padding: 200px;
+    
+}
+.btn-dark{
+    background-color: #C7CECF;
+}
+.small-image {
+    width: 500px; 
+    height: auto;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+.anotherimgs   {
+padding-top: 30px;
+}
+
+.sectioncolour{
+    background-color: #07393C;
+    padding-bottom: 50px;
+}
+.sectiontext{
+    padding-top: 100px;
+    padding-left: 500px;
+    padding-right: 500px;
+    text-align: center;
+    
+}
+.imgme{
+    width: 100px;
+    height: auto;
+    padding-left: 200px;
+    margin: 0 auto;
+    padding-right: 800px;
+    display: block;
+    
+    
+}
+.buttonsection{
+    background-color: #C7CECF;
+    padding-left: 155px;
+    padding-right: 155px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.pomagaj{
+    background-color: #324D51;
+    
+}
+.pomagajbtn{
+    padding-left: 36.6%;
+}
+
+
+
+
+
+
+
+/* THIS IS THE PORTFOLIO SECTION START  */
+.pleasework{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+    background-color: #f0eded; 
+}
+
+#gallery {
+    line-height:0;
+    -webkit-column-count:5; 
+    -webkit-column-gap:5px; 
+    -moz-column-count:5;
+    -moz-column-gap:5px;
+    column-count:5;
+    column-gap:5px;
+    padding: 10px;
+    padding-left: 300px;
+    
+}
+
+
+ #gallery img {
+    width: 100% !important;
+    height: auto !important;
+    margin-bottom:5px; 
+ }
+  
+
+
+@media only screen and (max-width: 600px) {
+    .herorowimg {
+        background: url(hero3.png) no-repeat center center fixed; 
+    }
+    z
+    .infoandicons{
+        text-align: center;
+        padding: 0;
+    }
+    .instagram{
+        padding: 20px;
+    }
+    .mail{
+        padding: 20px;
+    }
+    .phone{
+        padding: 20px;
+    }
+    
+    .nice{
+        margin-top: 0;
+    }
+    .me{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1000px;
+    }
+
+    .sectiontext{
+        text-align: center;
+        padding: 0;
+    }
+    .imgme{
+    width: 600px;
+    height: auto;
+    padding-left: 0px;
+    margin: 0 auto;
+    padding-right: 0px;
+    display: block;
+    
+    }
+    @media (max-width: 1200px) {
+        #gallery {
+         -moz-column-count:    4;
+         -webkit-column-count: 4;
+         column-count:         4;
+         padding: 0;
+         padding-left: 0;
+        }
+     }
+     @media (max-width: 1000px) {
+        #gallery {
+         -moz-column-count:    3;
+         -webkit-column-count: 3;
+         column-count:         3;
+         padding: 0;
+         padding-left: 0;
+        }
+     }
+     @media (max-width: 800px) {
+        #gallery {
+         -moz-column-count:    2;
+         -webkit-column-count: 2;
+         column-count:         2;
+         padding: 0;
+         padding-left: 0;
+        }
+     }
+     @media (max-width: 400px) {
+        #gallery {
+         -moz-column-count:    1;
+         -webkit-column-count: 1;
+         column-count:         1;
+         padding: 0;
+         padding-left: 0;
+        }
+     }
+  }
+
+  
